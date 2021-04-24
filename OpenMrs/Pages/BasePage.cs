@@ -1,15 +1,15 @@
-﻿using System;
+﻿using OpenMRS.Environment;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using OpenMRS.Environment;
-using NUnit.Framework;
+using OpenQA.Selenium;
 
 namespace OpenMRS.Pages
 {
-    public class OpenMrsApp
+    public class BasePage : TestEnvironment
     {
-        public LoginPage loginPage = new();
+        
     }
 }
